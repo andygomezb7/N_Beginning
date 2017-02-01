@@ -15,6 +15,7 @@
 
 // Es necesario crear un archivo para conectar a la base de datos via MySQL
 include('connect_database.php');
+include('funciones.php');
 
 $tables = $_GET['table'];
 $mda = $_GET['a'];
